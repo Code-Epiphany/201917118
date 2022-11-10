@@ -1,0 +1,173 @@
+* {
+    list-style: none;
+    /* margin: 0; */
+    padding: 0;
+}
+@font-face {
+    font-family: UniversalFont;
+    src: url("../fonts/glyphicons-halflings-regular.woff2");
+}
+body{
+    margin: auto;
+}
+html,body{
+    height: 100%;
+}
+a:hover {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+ul {
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+p {
+    margin-bottom: 0;
+}
+.clear {
+    clear: both;
+}
+img {
+    max-width: 100%;
+}
+.head{
+    position: relative;
+    width: auto;
+    height: 123px;
+    border: 1px solid transparent;
+    background-color: #015FAF;
+}
+.head_logo{
+    position: absolute;
+    top: 26%;
+    left: 9.7%;
+
+    width: fit-content;
+    height: fit-content;
+    max-width:100%;
+    max-height:100%;
+    border: 1px solid transparent;
+    /* margin-top: 2.23%;
+    margin-left: 9.73%; */
+    margin-right: 15%;
+    display: inline-block;
+}
+.head_logo > a > img{
+    width: 100%;
+    height: auto;
+}
+.head_icon{
+    position: absolute;
+    top: 36%;
+    left: 69.5%;
+    width: fit-content;
+    height: auto;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #1b6fb7;
+    display: inline-block;
+}
+@media (max-width: 1410px) {
+    .head_icon{
+        display: none;
+    }
+}
+.Weibo,.Wechat,.QQ,.Zhihu,.Toutiao,.Tiktok,.Bilibili{
+    display: inline-block;
+}
+.Weibo,.Zhihu,.Toutiao,.Bilibili > a > img{
+    width: 27px;
+    height: auto;
+}
+.Wechat,.QQ,.Tiktok > img{
+    width: 27px;
+    height: auto;
+}
+.weixin-qrcode{
+    display: none;
+}
+.Wechat > img:hover + .weixin-qrcode{
+    position: absolute;
+    display: block;
+    top: 32px;
+    left: 0px;
+    z-index: 1;
+}
+.qq-qrcode{
+    display: none;
+}
+.QQ > img:hover + .qq-qrcode{
+    position: absolute;
+    display: block;
+    top: 32px;
+    left: 0px;
+    z-index: 1;
+}
+.douyin-qrcode{
+    display: none;
+}
+.Tiktok > img:hover + .douyin-qrcode{
+    position: absolute;
+    display: block;
+    top: 32px;
+    left: 0px;
+    z-index: 1;
+}
+
+/* 主页：华水首页 */
+.HomePage > a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.HomePage{
+    position: absolute;
+    top: 37%;
+    left: 85.4%;
+    width: fit-content;
+    height: auto;
+    border: 1px solid transparent;
+}
+@media (max-width: 865px) {
+    .HomePage{
+        display: none;
+    }
+}
+
+
+.main{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+.history_title{
+    position: absolute;
+    top: 48px;
+    left: 64px;
+    width: 160px;
+    height: 48px;
+    border: 1px solid transparent;
+    border-bottom: 4px solid #015faf;
+}
+.history_title_icon{
+    position: absolute;
+    width: fit-content;
+    height: auto;
+    border: 1px solid transparent;
+}
+.history_title_icon > img{
+    width: 36px;
+}
+.history_title_content{
+    position: absolute;
+    left: 48px;
+    font-size: 28px;
+    color: #2c2c2c;
+    font-weight: bolder;
+}
