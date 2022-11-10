@@ -1,0 +1,247 @@
+{
+  "id": "2992633",
+  "name": "华北水利水电大学70周年校庆主题网站",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "24419717",
+      "name": "横杠",
+      "font_class": "henggang",
+      "unicode": "eb95",
+      "unicode_decimal": 60309
+    },
+    {
+      "icon_id": "7587762",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "25073886",
+      "name": "右箭头",
+      "font_class": "youjiantou1",
+      "unicode": "e72a",
+      "unicode_decimal": 59178
+    },
+    {
+      "icon_id": "3091579",
+      "name": "新闻动态",
+      "font_class": "xinwendongtai",
+      "unicode": "e763",
+      "unicode_decimal": 59235
+    },
+    {
+      "icon_id": "15155119",
+      "name": "公司口号",
+      "font_class": "gongsikouhao",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "7057936",
+      "name": "通知",
+      "font_class": "icon-yichang",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "11537789",
+      "name": "通知",
+      "font_class": "tongzhi",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "4439823",
+      "name": "发现， 眼睛",
+      "font_class": "faxianyanjing",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "20417726",
+      "name": "更新",
+      "font_class": "gengxin",
+      "unicode": "f308",
+      "unicode_decimal": 62216
+    },
+    {
+      "icon_id": "5299176",
+      "name": "标识",
+      "font_class": "biaoshi",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "11645574",
+      "name": "首页",
+      "font_class": "weibiaoti-",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "21231840",
+      "name": "首页",
+      "font_class": "shouye1",
+      "unicode": "f49b",
+      "unicode_decimal": 62619
+    },
+    {
+      "icon_id": "21398882",
+      "name": "标签标识",
+      "font_class": "biaoqianbiaoshi",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "12312645",
+      "name": "历史信息",
+      "font_class": "lishixinxi",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "11078441",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "1695404",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "1793595",
+      "name": "菜单",
+      "font_class": "caidan1",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "7587721",
+      "name": "菜单",
+      "font_class": "caidan2",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "4175511",
+      "name": "下箭头",
+      "font_class": "xiajiantou",
+      "unicode": "eb6d",
+      "unicode_decimal": 60269
+    },
+    {
+      "icon_id": "4175512",
+      "name": "上箭头",
+      "font_class": "shangjiantou",
+      "unicode": "eb6e",
+      "unicode_decimal": 60270
+    },
+    {
+      "icon_id": "7470186",
+      "name": "抖音",
+      "font_class": "douyin1",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "9607207",
+      "name": "toutiao",
+      "font_class": "toutiao",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "15912840",
+      "name": "知乎",
+      "font_class": "shejiaotubiao-46",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "21024498",
+      "name": "微博",
+      "font_class": "weibo1",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "21024499",
+      "name": "微信",
+      "font_class": "weixin1",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "21024514",
+      "name": "QQ",
+      "font_class": "QQ1",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "25051150",
+      "name": "哔哩哔哩",
+      "font_class": "bilibili1",
+      "unicode": "e6c5",
+      "unicode_decimal": 59077
+    },
+    {
+      "icon_id": "15989503",
+      "name": "头条样式",
+      "font_class": "toutiaoyangshi",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "3027447",
+      "name": "哔哩哔哩。",
+      "font_class": "bilibili",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "8759844",
+      "name": "weixin",
+      "font_class": "weixin",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "9186712",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "9186714",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "17255078",
+      "name": "知乎",
+      "font_class": "matuwang-zhihufangxingdianji",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "21024483",
+      "name": "抖音",
+      "font_class": "douyin",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    }
+  ]
+}

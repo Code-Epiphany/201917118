@@ -1,0 +1,81 @@
+.box{
+    display: none;
+}
+
+.headline{
+    width: auto;
+    height: 49px;
+    /* 设置边框透明 */
+    border: 1px solid transparent;
+    /* font-size: 0px; */
+    background-color: #015FAF;
+}
+.headline a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.headline_one{
+    width: 10%;
+    height: 49px;
+    /* 设置盒子随窗口缩放时的最小宽度为：60px */
+    min-width: 60px;
+    /* width: 145px;
+    height: 49px; */
+    /* 使得盒子中的文字水平垂直居中 */
+    text-align: center;
+    line-height: 49px;
+
+    border: 1px solid transparent;
+    margin-top: -1px;
+    margin-left: 30%;
+    float: left;
+}
+.headline_one:hover{
+    background-color: #1b6fb7;
+}
+.headline_two{
+    width: 10%;
+    height: 49px;
+    /* 设置盒子随窗口缩放时的最小宽度为：90px */
+    min-width: 90px;
+    text-align: center;
+    line-height: 49px;
+
+    border: 1px solid transparent;
+    margin-top: -1px;
+    float: left;
+}
+.headline_two:hover{
+    background-color: #1b6fb7;
+}
+.headline_three{
+    width: 10%;
+    height: 49px;
+    /* 设置盒子随窗口缩放时的最小宽度为：90px */
+    min-width: 90px;
+    text-align: center;
+    line-height: 49px;
+
+    border: 1px solid transparent;
+    margin-top: -1px;
+    float: left;
+}
+.headline_three{
+    background-color: #cf1b23;
+}
+.headline_four{
+    width: 10%;
+    height: 49px;
+    /* 设置盒子随窗口缩放时的最小宽度为：90px */
+    min-width: 90px;
+    text-align: center;
+    line-height: 49px;
+
+    border: 1px solid transparent;
+    margin-top: -1px;
+    float: left;
+}
+.headline_four:hover{
+    background-color: #1b6fb7;
+}

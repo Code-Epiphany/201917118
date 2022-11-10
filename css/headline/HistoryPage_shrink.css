@@ -1,0 +1,84 @@
+.headline{
+  display: none;
+}
+
+.box {
+    margin: 0px auto;
+    width: 100%;
+    background-color:  #2a9ead;
+  }
+  .box .box-item {
+    border-bottom: 1px solid #666;
+    color: #eee;
+  }
+  .box .title {
+    margin: 0;
+    padding: 10px;
+    background-color: #015faf;
+  }
+  .box-item-content{
+    height: 0;
+    overflow: hidden;
+    background-color: #015faf;
+    margin: 0;
+    padding-left: 0px;
+    transition: 0.5s;
+  }
+  .option_one{
+    width: 92.7%;
+    height: 38px;
+    line-height: 37px;/* 使得盒子中的内容垂直居中 */
+    border: 1px solid transparent;
+    margin-top: 9px;
+    margin-left: 2.4%;
+    padding-left: 2%;
+  }
+  .option_one:hover{
+    background-color: #1b6fb7;
+  }
+  .option_two{
+    width: 92.7%;
+    height: 38px;
+    line-height: 37px;/* 使得盒子中的内容垂直居中 */
+    border: 1px solid transparent;
+    margin-top: 6px;
+    margin-left: 2.4%;
+    padding-left: 2%;
+  }
+  .option_two:hover{
+    background-color: #1b6fb7;
+  }
+  .option_three{
+    width: 92.7%;
+    height: 38px;
+    line-height: 37px;/* 使得盒子中的内容垂直居中 */
+    border: 1px solid transparent;
+    margin-top: 6px;
+    margin-left: 2.4%;
+    padding-left: 2%;
+  }
+  .option_three:hover{
+    background-color: #1b6fb7;
+  }
+  .option_four{
+    width: 92.7%;
+    height: 38px;
+    line-height: 37px;/* 使得盒子中的内容垂直居中 */
+    border: 1px solid transparent;
+    margin-top: 6px;
+    margin-left: 2.4%;
+    padding-left: 2%;
+  }
+  .option_four{
+    background-color: #cf1b23;
+  }
+  ul{
+    list-style: none;
+  }
+  ul a{
+    color: white;
+    text-decoration: none;
+  }
+  .box:hover .box-item:hover .box-item-content {
+    height: 200px;
+  }
