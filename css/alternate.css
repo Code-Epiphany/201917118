@@ -1,0 +1,84 @@
+.one{
+    width: fit-content;
+}
+.two{
+    width: fit-content;
+}
+.three{
+    width: fit-content;
+}
+.one img{
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+.two img{
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+.three img{
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+.three {
+	animation-name: cantoons;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+.two {
+	animation-name: cantoons2;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+.one {
+	animation-name: cantoons1;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+@keyframes cantoons{
+	0% {
+		opacity: 1;
+	}
+	35% {
+		opacity: 0;
+	}
+	70% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+	
+}
+@keyframes cantoons2{
+	0% {
+		opacity: 0;
+	}
+	35% {
+		opacity: 1;
+	}
+	70% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+
+	}
+}
+@keyframes cantoons1{
+	0% {
+		opacity: 0;
+	}
+	35% {
+		opacity: 0;
+	}
+	70% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+
+	}
+}
