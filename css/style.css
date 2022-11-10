@@ -1,0 +1,487 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: UniversalFont;
+    src: url("../fonts/glyphicons-halflings-regular.woff2");
+}
+body{
+    margin: auto;
+    /* 给body加上一个min-width最小宽度，以px为单位，这样当页面变小时，
+    当达到你所设置的最小宽度，body的宽度不再改变，超出的部分会用横向滚动条显示，
+    其内所有元素的布局也不会受影响 */
+    /* min-width: 1000px; */
+}
+html,body{
+    height: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+ul {
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+p {
+    margin-bottom: 0;
+}
+.clear {
+    clear: both;
+}
+img {
+    max-width: 100%;
+}
+.head{
+    position: relative;
+    width: auto;
+    height: 123px;
+    border: 1px solid transparent;
+    background-color: #015FAF;
+}
+.head_logo{
+    position: absolute;
+    top: 26%;
+    left: 9.7%;
+
+    width: fit-content;
+    height: fit-content;
+    max-width:100%;
+    max-height:100%;
+    border: 1px solid transparent;
+    /* margin-top: 2.23%;
+    margin-left: 9.73%; */
+    margin-right: 15%;
+    display: inline-block;
+}
+.head_logo > a > img{
+    width: 100%;
+    height: auto;
+}
+.head_icon{
+    position: absolute;
+    top: 36%;
+    left: 69.5%;
+    width: fit-content;
+    height: auto;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #1b6fb7;
+    display: inline-block;
+}
+@media (max-width: 1410px) {
+    .head_icon{
+        display: none;
+    }
+}
+.Weibo,.Wechat,.QQ,.Zhihu,.Toutiao,.Tiktok,.Bilibili{
+    display: inline-block;
+}
+.Weibo,.Zhihu,.Toutiao,.Bilibili > a > img{
+    width: 27px;
+    height: auto;
+}
+.Wechat,.QQ,.Tiktok > img{
+    width: 27px;
+    height: auto;
+}
+.weixin-qrcode{
+    display: none;
+}
+.Wechat > img:hover + .weixin-qrcode{
+    position: absolute;
+    display: block;
+    top: 32px;
+    left: 0px;
+    z-index: 1;
+}
+.qq-qrcode{
+    display: none;
+}
+.QQ > img:hover + .qq-qrcode{
+    position: absolute;
+    display: block;
+    top: 32px;
+    left: 0px;
+    z-index: 1;
+}
+.douyin-qrcode{
+    display: none;
+}
+.Tiktok > img:hover + .douyin-qrcode{
+    position: absolute;
+    display: block;
+    top: 32px;
+    left: 0px;
+    z-index: 1;
+}
+
+/* 主页：华水首页 */
+.HomePage > a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.HomePage{
+    position: absolute;
+    top: 37%;
+    left: 85.4%;
+    width: fit-content;
+    height: auto;
+    border: 1px solid transparent;
+}
+@media (max-width: 865px) {
+    .HomePage{
+        display: none;
+    }
+}
+
+/* 轮播图 */
+.alternate_images{
+    width: 100%;
+    padding-bottom: 33.2%;
+    height: 0;
+    /* height: 478px; */
+    border: 1px solid transparent;
+    margin-left: -1px;
+    margin-top: -1px;
+    font-size: 0px;
+}
+
+
+
+.main{
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background-color: #f3f3f3;
+    overflow: hidden;
+}
+
+.background_img{
+    position: absolute;
+    bottom: 0;
+}
+
+.dynamic_title{
+    position: absolute;
+    top: 42px;
+    left: 170px;
+    width: 176.5px;
+    height: 55px;
+    border: 1px solid transparent;
+    border-bottom: 4px solid #015faf;
+
+}
+
+.dynamic_title_icon{
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: fit-content;
+    height: auto;
+    border: 1px solid transparent;
+}
+.dynamic_title_icon > img{
+    width: 55px;
+}
+.dynamic_title_content{
+    position: absolute;
+    top: 14px;
+    left: 55.5px;
+    width: fit-content;
+    height: auto;
+    border: 1px solid transparent;
+    font-size: 30px;
+    color: #4A4A4A;
+    font-weight: bold;
+}
+
+.dynamic_content{
+    position: absolute;
+    top: 135px;
+    left: 170px;
+    width: 443px;
+    height: 700px;
+    border: 1px solid transparent;
+
+}
+.dynamic_content_picture{
+    position: absolute;
+    left: -1px;
+    width: fit-content;
+
+}
+.dynamic_content_picture > img{
+    width: 420px;
+}
+
+.RandomThought{
+    position: absolute;
+    top: 263px;
+    left: -1px;
+    width: 100%;
+    height: 75px;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #005bab;
+    cursor: pointer;
+}
+.RandomThought_word{
+    position: absolute;
+    top: 34px;
+
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid transparent;
+}
+.RandomThought:hover > .RandomThought_word >  a{
+    color: #005bb6;
+}
+.RandomThought_word > a{
+    text-decoration: none;
+    color: #535353;
+}
+.RandomThought_word > a:hover{
+    color: #005bb6;
+}
+
+.RandomThought_BlueBox{
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 75px;
+    height: 75px;
+    border: 1px solid transparent;
+    background-color: #005bab;
+    color: #fffcfc;
+    cursor: pointer;
+}
+.RandomThought_BlueBox_content{
+    position: absolute;
+    top: 13px;
+    left: 21px;
+    width: 32px;
+    height: fit-content;
+    border: 1px solid transparent;
+}
+.RandomThought_BlueBox_unfold{
+    position: absolute;
+    left: 31px;
+    bottom: 0;
+    width: fit-content;
+    height: 9px;
+    border: 1px solid transparent;
+    text-align: center;
+    line-height: 9px;
+}
+
+.dynamic_detail{
+    position: absolute;
+    top: 340px;
+    left: -1px;
+    width: 100%;
+    height: 120px;
+    border: 1px solid transparent;
+}
+.dynamic_detail_1{
+    position: absolute;
+    left: -1px;
+    width: 100%;
+    height: 45px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.dynamic_detail_1:hover > .dynamic_detail_content > a{
+    color: #005bab;
+}
+.dynamic_detail_point{
+    position: absolute;
+    top: 20px;
+    left: -1px;
+    width: 0;
+    height: 0;
+    border: 3px solid #005bab;
+    border-radius: 50%;
+}
+.dynamic_detail_content{
+    position: absolute;
+    top: 11px;
+    left: 13px;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid transparent;
+}
+.dynamic_detail_content > a{
+    text-decoration: none;
+    color: #535353;
+}
+.dynamic_detail_content > a:hover{
+    color: #005bab;
+}
+.dynamic_detail_date{
+    position: absolute;
+    top: 11px;
+    right: 0;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid transparent;
+    color: #9d9d9d;
+    cursor: pointer;
+}
+
+.dynamic_detail_2{
+    position: absolute;
+    top: 45px;
+    left: -1px;
+    width: 100%;
+    height: 45px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.dynamic_detail_2:hover > .dynamic_detail_content > a{
+    color: #005bab;
+}
+
+
+
+.slogan_title{
+    position: absolute;
+    top: 42px;
+    left: 760px;
+    width: 176.5px;
+    height: 55px;
+    border: 1px solid transparent;
+    border-bottom: 4px solid #015faf;
+
+}
+
+.slogan_title_icon{
+    position: absolute;
+    /* top: -1px; */
+    left: -1px;
+    bottom: -1px;
+    width: fit-content;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slogan_title_icon > img{
+    width: 55px;
+}
+.slogan_title_content{
+    position: absolute;
+    top: 14px;
+    left: 55.5px;
+    width: fit-content;
+    height: auto;
+    border: 1px solid transparent;
+    font-size: 30px;
+    color: #4A4A4A;
+    font-weight: bold;
+}
+
+.slogan_content{
+    position: absolute;
+    top: 135px;
+    left: 760px;
+    width: 445px;
+    height: 430px;
+    border: 1px solid transparent;
+}
+.slogan_content_picture{
+    position: absolute;
+
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid transparent;
+}
+.slogan_content_detail{
+    position: absolute;
+    top: 150px;
+    left: -1px;
+    width: 100%;
+    height: 277px;
+    border: 1px solid transparent;
+}
+.slogan_content_detail_1{
+    position: absolute;
+
+    width: 100%;
+    height: 75px;
+    border: 1px solid transparent;
+    background-color: #ffffff;
+}
+.slogan_content_detail_1:hover{
+    background-color: #b02b32;
+}
+
+.slogan_content_detail_2{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 75px;
+    border: 1px solid transparent;
+    background-color: #ffffff;
+}
+.slogan_content_detail_2:hover{
+    background-color: #b02b32;
+}
+
+.slogan_content_detail_3{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: 75px;
+    border: 1px solid transparent;
+    background-color: #ffffff;
+}
+.slogan_content_detail_3:hover{
+    background-color: #b02b32;
+}
+
+
+.horizontal{
+    position: absolute;
+    top: 24px;
+    left: 18px;
+    width: 20px;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slogan_content_couplet{
+    position: absolute;
+    top: 27px;
+    left: 42px;
+    width: fit-content;
+    height: fit-content;
+
+}
+.slogan_content_couplet > a{
+    text-decoration: none;
+    color: #373737;
+}
+
+.slogan_content_detail_1:hover > .slogan_content_couplet > a{
+    color: #ffffff;
+}
+.slogan_content_detail_2:hover > .slogan_content_couplet > a{
+    color: #ffffff;
+}
+.slogan_content_detail_3:hover > .slogan_content_couplet > a{
+    color: #ffffff;
+}
+.slogan_content_logo{
+    position: absolute;
+    top: 14px;
+    right: 0;
+    width: 38px;
+    height: auto;
+    border: 1px solid transparent;
+}
